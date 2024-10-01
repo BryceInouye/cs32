@@ -21,4 +21,4 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 
 
 
-[notes1]: (https://docs.google.com/document/d/1FNTzAaAI-bzRJFg2WCceoeGAXtjm4oUJ5j80RQJqE2s/edit?usp=sharing)
+[notes1]: https://docs.google.com/document/d/1FNTzAaAI-bzRJFg2WCceoeGAXtjm4oUJ5j80RQJqE2s/edit?usp=sharing
