@@ -7,7 +7,7 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 ## Course Overview
 
 | Week | Date      | Topics | Lab | Notes |
-| ----- | ----------- | ----------- | ----- | ---- |
+| :-----: | ----------- | ----------- | ----- | ---- |
 | 1 | 9/30<br>10/2      | Standard Library Containers<br>Maps, Sets, & Classes   | [Lab 1](labs/lab00/) |[Week 1][notes1]
 
 ## Course Logistics
