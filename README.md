@@ -6,9 +6,10 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 
 ## Course Overview
 
-| Week | Date      | Topics | Lab | Notes |
-| :-----: | ----------- | ----------- | ----- | ---- |
+| Week | Date      | Topics | Lab | Resources |
+| :-----: | ----------- | ----------- | ----- | :----: |
 | 1 | 9/30<br>10/2      | Standard Library Containers<br>Maps, Sets, & Classes   | [Lab 1](labs/lab00/) |[Week 1][notes1]
+| 2 | 10/7<br>10/9 | OOP Design, ADT's <br> Namespaces, Dynamic Memory Management | [Lab 2](labs/lab01/) | [Demo 1](demos/cs32kart/)
 
 ## Course Logistics
 

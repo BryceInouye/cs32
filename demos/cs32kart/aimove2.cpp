@@ -5,7 +5,7 @@ void move(int* coordinates) {
     std::cout << "in move-ai move()" << std::endl;
 }
 
-void compute() {
+void am2::compute() {
     // code for compute
     std::cout << "compute() in aimove2.cpp";
 }
