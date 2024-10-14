@@ -9,9 +9,14 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 | Week | Date      | Topics | Lab | Resources |
 | :-----: | ----------- | ----------- | ----- | :----: |
 | 1 | 9/30<br>10/2      | Standard Library Containers<br>Maps, Sets, & Classes   | [Lab 1](labs/lab00/) |[Week 1][notes1]
-| 2 | 10/7<br>10/9 | OOP Design, ADT's <br> Namespaces, Dynamic Memory Management | [Lab 2](labs/lab01/) | [Demo 1](demos/cs32kart/)
+| 2 | 10/7<br>10/9 | OOP Design, ADT's <br> Namespaces, Dynamic Memory Management | [Lab 2](labs/lab01/) | [Demo 1](demos/cs32kart/)|
+| 3 | 10/14<br>10/16 | TDD, Build Process <br> Binary Search & Quad Time Sorting Algorithms | [Lab 3](labs/)| [Week 3][notes3]
 
 ## Course Logistics
+
+### Exam Information
+
+**Midterm Exam:** Week 6
 
 ### Location & Times
 
@@ -23,3 +28,5 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 
 
 [notes1]: https://docs.google.com/document/d/1FNTzAaAI-bzRJFg2WCceoeGAXtjm4oUJ5j80RQJqE2s/edit?usp=sharing
+
+[notes3]: https://docs.google.com/document/d/12-RYHH1Lx8wKrFkTB-sDNDdVmr_DwOFWfPeGQC9J9wI/edit?usp=sharing
