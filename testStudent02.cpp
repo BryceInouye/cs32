@@ -24,7 +24,6 @@ int main() {
 
   s.setName(name1);
   ASSERT_EQUALS(name1,s.getName());
-
   s2.setName(name2);
   ASSERT_EQUALS(name2,s2.getName());
 

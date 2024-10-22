@@ -22,7 +22,7 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 
 - **Lectures** 9:30 AM-10:45 AM on Mondays and Wednesdays in ILP, 1101
 - **Labs** 3:00 PM-3:50 PM on Tuesdays in Phelps Hall, 3525
-- **Office Hours** 2:00 PM-4:00PM on Wednesdays in Harold Frank Hall, 1115
+- **Office Hours** 2:00 PM-4:00 PM on Wednesdays in Harold Frank Hall, 1115
 
 
 
