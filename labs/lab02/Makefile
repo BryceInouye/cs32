@@ -1,6 +1,6 @@
 CXX=g++
 
-CXXFLAGS= -std=c++17 -Wall -g
+CXXFLAGS= -std=c++17 -Wall -g 
 
 BINARIES=testStudent00 testStudent01 testStudent02 testStudent03 \
 	testStudentRoll00 	testStudentRoll01 testStudentRoll02
