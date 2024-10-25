@@ -1,7 +1,7 @@
 #ifndef DEBUGFUNCTIONS_H
 #define DEBUGFUNCTIONS_H
 #include <string>
-// use echo "1232" > MYFAVOWIREFILE
+// use echo "1232" >co MYFAVOWIREFILE
 // to create a file named MYFAVOWIREFILE
 // use cat MYFAVOWIREFILE to print the contents of it aka "1232"
 void debugFunction1(std::string a);
