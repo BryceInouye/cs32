@@ -1,0 +1,3 @@
+# Lab 04
+
+In this lab, we explored several core concepts in OOP, specifically focusing on classes, inheritance, and polymorphism to create an ice cream bill tracker. This lab also reviewed principles to make decisions about appropriate data structures and file organization in a multi-file C++ project. For example, I decided to use `std::map` to access an item's price in O(1) time. These concepts are fundamental to creating scalable, maintainable, and efficient code.
