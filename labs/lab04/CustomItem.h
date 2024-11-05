@@ -22,9 +22,3 @@ class CustomItem : public IceCreamItem {
 };
 
 #endif // CUSTOMITEM_H
-
-// IceCreamItem.cpp
-// CustomItem.h
-// CustomItem.cpp
-// PreMadeItem.h
-// PreMadeItem.cpp
