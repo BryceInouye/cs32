@@ -1,0 +1,3 @@
+# Lab 05
+
+This lab reviews some of the material from previous labs including **TDD**, **classes**, and **C++ programming**. Additionally, this lab served as practice for sorting algorithms by implementing **selection sort**, a quadratic time sorting algorithm that takes the maximum/minimum value from a subarray and swaps it with the value at the end of the array. Here, we implemented `void Roster::sortByPerm()`, which uses helper functions `void Roster::sortByPerm()` and `int Roster::indexOfMaxPermAmongFirstKStudents(int k)` that use pointers to sort class objects since recopying all of the data every single time we swap will add excessive steps for the compiler to execute. 
