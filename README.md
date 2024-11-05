@@ -22,7 +22,7 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 
 ### Exam Information
 
-**Midterm Exam:** Week 6
+- **Midterm Exam:** Week 6
 
 ### Location & Times
 
