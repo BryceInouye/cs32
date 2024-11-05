@@ -13,7 +13,7 @@ This repo contains all of the coursework relevant to CS 32. Labs and lecture not
 | 3 | 10/14<br>10/16 | TDD, Build Process <br> Binary Search & Quad Time Sorting Algorithms | [Lab 2](labs/lab02/)| [Week 3][notes3] <br> [Demo 2](demos/demo2/)|
 | 4 | 10/21<br>10/23|Recursive Sorting Algorithms<br>Inheritance in C++ | [Lab 3](labs/lab03/) | [GDB][notes4]<br>[Demo 3](demos/demo3/)<br>[Demo 4](demos/demo4/)|
 | 5 | 10/28<br>10/30 | Polymorphism in C++<br>Virtual functions and Abstract Classes | [Lab 4](labs/lab04/) | [Demo 5](demos/demo5/)<br> [Demo 6](demos/demo6/)|
-| 6| 11/4<br>11/6|MIDTERM EXAM<br>Hashing Functions | | |
+| 6| 11/4<br>11/6|MIDTERM EXAM<br>Hashing Functions |[Lab 5](labs/lab05/) |  |
 <!-- | 7 | 11/11<br>11/13|Holiday - 11/11 (Veteran's day)<br>Function Pointers | | |
 | 8 | 11/18<br>11/20|Exception Handling<br>Intro to operating systems, Processes| | |
 | 9 | 11/25<br>11/27 | Threads<br>Smart Pointers| | |
