@@ -134,7 +134,7 @@ int WordCount::decrWordCount(std::string word) {
 		res = it->second;
 		if (it->second == 0) {
 			vec.erase(it);
-			res = -1;
+			// res = -1;
 		}
 	}
 

@@ -22,12 +22,12 @@ int main() {
 
     cout << "TESTS FOR decrWordCount()" << endl;
     ASSERT_EQUALS(1, words.decrWordCount("alice"));
-    ASSERT_EQUALS(-1, words.decrWordCount("alice"));
+    ASSERT_EQUALS(0, words.decrWordCount("alice"));
     ASSERT_EQUALS(-1, words.decrWordCount("smolder"));
 
     cout << "\nMore TESTS FOR getWord*" << endl;
     ASSERT_EQUALS(1, words.getNumUniqueWords());
-    ASSERT_EQUALS(-1, words.decrWordCount("bob"));
+    ASSERT_EQUALS(0, words.decrWordCount("bob"));
     ASSERT_EQUALS(0, words.getWordCount("connor"));
     ASSERT_EQUALS(0, words.getNumUniqueWords());
     ASSERT_EQUALS(0, words.getTotalWords());
