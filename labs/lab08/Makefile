@@ -28,5 +28,5 @@ tests: ${BINARIES}
 leaktests: lt01
 
 clean:
-	/bin/rm -f ${BINARIES} *.o
+	/bin/rm -f ${BINARIES} *.o *.exe
 
