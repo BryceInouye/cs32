@@ -48,7 +48,6 @@ int main() {
 	}
 	ASSERT_EQUALS(false, caughtInvalidIndexException);
 	caughtInvalidIndexException = false;
-
 	try {
 		list.at(1);
 	} catch (InvalidIndexException e) {

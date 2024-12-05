@@ -18,7 +18,6 @@ SimpleList<T>::SimpleList() {
     Also allocates the array elements with a size of CAPACITY.
     SimpleList constructor that sets numElements to 0 (i.e. the SimpleList is constructed with 0 elements). 
     */
-    std::cout << "Hello, World!" << std::endl;  // DELETEME!
     elements = new T[CAPACITY];
     if (is_pointer<T>::value) {
         for (int i = 0; i < CAPACITY; i++) {
@@ -44,12 +43,10 @@ SimpleList<T>::~SimpleList() {
     deleting any elements in SimpleList that exist on the heap
     */
    if (std::is_pointer<T>::value) {
-    std::cout << "using a pointer!" << endl;
     for (int i = 0; i < CAPACITY; i++) {
         destroy(elements[i]);
     }
    }
-    cout << "destructor called ay ay ay!" << endl;
     delete[] elements;
 }
 
@@ -59,7 +56,7 @@ T SimpleList<T>::at(int index) const {
     Returns the element at index location. Throws a InvalidIndexException. 
     if there is no element at index.
     */
-   if (index >= CAPACITY || index < 0 || elements[index] == T()) {
+   if (index >= numElements || index < 0) {
     throw InvalidIndexException();
    }
 
@@ -112,10 +109,10 @@ void SimpleList<T>::insert(T item) {
 
     elements[numElements] = item;
     this->numElements++;
-    cout << "[";
-    for (int i = 0; i < numElements; i++) {
-    cout << elements[i] << " AND ";
-   } cout << "]" << endl;
+//     cout << "[";
+//     for (int i = 0; i < numElements; i++) {
+//     cout << elements[i] << " AND ";
+//    } cout << "]" << endl;
 }
 
 template <class T>
@@ -135,11 +132,11 @@ void SimpleList<T>::remove(int index) {
    } catch (InvalidIndexException e) {
     throw InvalidIndexException();
    }
-   cout << "PRE: [";
-    for (int i = 0; i < numElements; i++) {
-    cout << elements[i] << " AND ";
-   } cout << "]" << endl;
-   cout << "attempting to kill: " << elements[index] << endl;
+//    cout << "PRE: [";
+//     for (int i = 0; i < numElements; i++) {
+//     cout << elements[i] << " AND ";
+//    } cout << "]" << endl;
+//    cout << "attempting to kill: " << elements[index] << endl;
    destroy(elements[index]);
     // 0 1 2
     // 1 2
@@ -152,15 +149,14 @@ void SimpleList<T>::remove(int index) {
     // 0 1
     // start(i = index=2), end(i = 2) -> repeats 0 time
     for (int i = index; i < numElements; i++) {
-        cout << "index = " << index << endl;
         elements[i] = elements[i + 1];
     }
    
    numElements--;
-    cout << "POST: [";   
-    for (int i = 0; i < numElements; i++) {
-    cout << elements[i] << " AND ";
-   } cout << "]" << endl;
+//     cout << "POST: [";   
+//     for (int i = 0; i < numElements; i++) {
+//     cout << elements[i] << " AND ";
+//    } cout << "]" << endl;
    
    return;
 }
